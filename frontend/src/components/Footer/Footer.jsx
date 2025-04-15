@@ -17,13 +17,15 @@ function Footer() {
 
             </div>
             <div className="footer-content-center">
-                <h2>Company</h2>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+    <h2>Company</h2>
+    <ul>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Delivery</li>
+        <li>Privacy policy</li>
+    </ul>
+</div>
 
-            </div>
             <div className="footer-content-right">
                 <h2>GET IN TOUCH</h2>
                 <ul>
@@ -34,7 +36,7 @@ function Footer() {
             </div>
         </div>
         <hr />
-        <p className='footer-copyright'>copyright 2025 © Alifood.com - All Right Reserve </p>
+        <p className='footer-copyright'>copyright 2025 © Alifood - All Right Reserve </p>
 
     </div>
   )
