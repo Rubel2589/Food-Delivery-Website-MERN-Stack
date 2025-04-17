@@ -13,7 +13,7 @@ function Cart() {
           <p>Items</p>
           <p>Title</p>
           <p>Price</p>
-          <p>Quantity</p>
+          <p>Qnty</p>
           <p>Total</p>
           {/* <p>Remove</p> */}
         </div>
