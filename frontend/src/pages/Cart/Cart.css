@@ -229,3 +229,10 @@
 }
 
 }
+.empty-cart-msg {
+  font-size: 20px;
+  color: #777;
+  text-align: center;
+  padding: 40px 0;
+}
+
