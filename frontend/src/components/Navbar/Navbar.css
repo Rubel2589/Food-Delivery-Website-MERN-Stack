@@ -15,6 +15,7 @@
     /* Ensures it stays above other content */
     box-sizing: border-box;
     overflow-x: hidden;
+    /* margin-bottom: 200px; */
 }
 
 .navbar-menu {
