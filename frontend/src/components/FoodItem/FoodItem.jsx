@@ -41,7 +41,7 @@ function FoodItem({ id, name, price, description, image }) {
           <img src={assets.rating_starts} alt="" />
         </div>
         <p className="food-item-desc">{description}</p>
-        <p className="food-item-price">₹{price * 86}</p>
+        <p className="food-item-price">₹{price}</p>
       </div>
     </div>
   );

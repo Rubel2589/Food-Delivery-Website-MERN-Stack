@@ -54,17 +54,17 @@ function Cart() {
             <div>
               <div className="cart-total-details">
                 <p>Subtotal</p>
-                <p>${getTotalCartAmount()}</p>
+                <p>₹{getTotalCartAmount()}</p>
               </div>
               <hr />
               <div className="cart-total-details">
                 <p>Delivery fee</p>
-                <p>${2}</p>
+                <p>₹{10}</p>
               </div>
               <hr />
               <div className="cart-total-details">
                 <b>Total</b>
-                <b>${getTotalCartAmount() + 2}</b>
+                <b>₹{getTotalCartAmount() + 2}</b>
               </div>
             </div>
             <button onClick={() => navigate("/order")}>PROCEED TO CHECKOUT</button>
